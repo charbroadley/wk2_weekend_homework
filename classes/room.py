@@ -18,11 +18,13 @@ class Room:
     def add_song_to_playlist (self, song):
         self.playlist.append(song)
 
-    def is_room_full (self, guest_1, guest_2, capacity):
-        self.check_guest_in_multiple(self, guest_1, guest_2)
-        if self.guests_in_room >= capacity:
-            return True
-# WIP
+# Error with this - come back to it later
+
+#     def is_room_full (self, guest_1, guest_2, capacity):
+#         self.check_guest_in_multiple(self, guest_1, guest_2)
+#         if self.guests_in_room >= capacity:
+#             return True
+# # WIP
     # def name_of_guest_in_room (self, guest):
     #     self.add_guest_to_room(guest)
     #     return self.guests_in_room
